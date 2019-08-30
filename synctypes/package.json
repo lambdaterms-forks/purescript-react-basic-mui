@@ -1,0 +1,14 @@
+{
+  "name": "purescript-react-mui-sync",
+  "version": "1.0.0",
+  "license": "MIT",
+  "dependencies": {
+    "@material-ui/core": "3.9.3",
+    "@material-ui/styles": "3.0.0-alpha.10",
+    "create-react-class": "^15.6.2",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "tslib": "^1.10.0",
+    "typescript": "^3.6.2"
+  }
+}
