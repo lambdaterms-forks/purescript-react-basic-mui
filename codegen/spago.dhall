@@ -8,8 +8,9 @@ You can edit this file as you like.
     [ "console"
     , "debug"
     , "effect"
-    , "psci-support"
     , "node-fs-aff"
+    , "psci-support"
+    , "read-dts"
     , "simple-json"
     ]
 , packages =
