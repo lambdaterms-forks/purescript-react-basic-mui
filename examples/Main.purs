@@ -53,6 +53,7 @@ import MUI.Icons.Types (icon, iconWithStyles)
 import MUI.React.TransitionGroup (single) as TransitionGroup
 import MUI.System.Display (flex, none) as Only
 import MUI.System.Display (hiding)
+import MUI.System.Flexbox (flexEnd) as Flexbox
 import MUI.System.Flexbox.JustifyContent (flexEnd) as JustifyContent
 import React.Basic (Component, JSX, ReactComponent, createComponent, element, make)
 import React.Basic.DOM (a, button, div, div_, form, h2, p, span, text) as DOM
@@ -236,7 +237,7 @@ app components = make component { initialState: {}, render } {}
                 [ DOM.text "`Box` visible on md and larger justify-content: flex-end" ]
               , display: hiding { xs: Only.none, sm: Only.none, md: Only.flex }
               , flexGrow: 1.0
-              , justifyContent: JustifyContent.flexEnd
+              , justifyContent: asOneOf Flexbox.flexEnd
               }
             ]
       , container $ { fixed: true, children: _ }
